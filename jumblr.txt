@@ -42,8 +42,6 @@
 </div>
 <div>
 <hr>
-<div><img src="/site/sites/system/app/images/cleardot.gif" style="display:block;text-align:left;margin-right:auto"></div>
-</div>
 <div>
 <h2>jumblrの入手方法</h2>
 <div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">jumblrはGitHubのリポジトリでソースコードとパッケージ済のライブラリが提供されています。</span></div>
@@ -87,4 +85,8 @@
 </span></li>
 <li style="line-height:22px"><span style="line-height:1.25">プロジェクトのビルドパスにjumblrライブラリを追加します。<br>
 <a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/add-jar-to-build-path">06　ビルドパスへのライブラリの追加</a>を参照して下さい。</span></li>
-</ol></body>
+</ol>
+<hr>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">以下のページでjumblrのクラスやメソッドについて説明します。</span></div>
+
+</body>
