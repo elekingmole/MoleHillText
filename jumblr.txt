@@ -1,0 +1,19 @@
+ en
+ content or url
+ ----[split]----
+ ja
+<h2>UseJumblrについて</h2>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">UseJumblrはJumblrの動作を確認するために作成したプログラムです。</span></div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">このカテゴリで使用されるサンプルコードはこのプログラム内でのみ動きます。</span></div>
+<div><font color="#9fc5e8" size="2">これを使用するには以下の手順が必要です。<br>
+<ol><li><a href="https://github.com/elekingmole/UseJumblr" style="line-height:1.25">https://github.com/elekingmole/UseJumblr</a><span style="line-height:1.25">からインポートします。</span><br>
+<a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/import-from-github" style="line-height:1.25">03　GitHubからのインポート</a><span style="line-height:1.25">を参照してください。<br>
+(項番12では</span>「既存プロジェクトのインポート」を選択してください。<span style="line-height:1.25">)<br>
+<br>
+</span></li>
+<li style="line-height:22px"><span style="line-height:1.25">Functions.java内でconsumerKeyとconsumerSecretを指定します。<br>
+<br>
+</span></li>
+<li style="line-height:22px"><span style="line-height:1.25">プロジェクトのビルドパスにjumblrライブラリを追加します。<br>
+<a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/add-jar-to-build-path">06　ビルドパスへのライブラリの追加</a>を参照して下さい。</span></li>
+</ol>
