@@ -2,7 +2,78 @@
  content or url
  ----[split]----
  ja
-<body><h2>UseJumblrについて</h2>
+<body>
+<h2>JumblrとTumblrについて</h2>
+<span style="line-height:normal"><font color="#9fc5e8" face="arial, sans-serif" size="2">
+<div>ここではjumblrの使い方について説明します。</div>
+</font></span>
+<div><font color="#9fc5e8" face="arial, sans-serif" size="2"><span style="line-height:normal">jumblrはTumblr V2 APIをJavaから利用する為の公式のラッパーライブラリです。</span></font></div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><font color="#9fc5e8" size="2"><span style="line-height:normal"><font face="arial, sans-serif"><a href="http://www.tumblr.com" target="_blank">Tumblr</a>は</font></span></font><font color="#9fc5e8" face="arial, sans-serif" size="2"><span style="line-height:normal">Tumblr, Incが提供するWebサービスで</span></font><span style="font-family:arial,sans-serif;line-height:normal;color:rgb(159,197,232);font-size:small">wikipediaでは以下のように説明されています。</span></div>
+<div>
+<div><br>
+</div>
+<div><font color="#9fc5e8" size="2">
+<div class="sites-codeblock sites-codesnippet-block"><code>Tumblr（タンブラー）は、メディアミックスブログサービス。ブログとミニブログ、そしてソーシャルブックマークを統合したマイクロブログサービスである。<br>
+<br>
+<a href="http://ja.wikipedia.org/wiki/Tumblr">http://ja.wikipedia.org/wiki/Tumblr</a></code></div>
+</font></div>
+<div><br>
+</div>
+<div><font color="#9fc5e8" size="2"><span style="line-height:22px">Tumblrを杓子定規的に分類するならばミニ(マイクロ)ブログサービスであり、海外では主に若年層が<br>
+そのように正しい使い方をしているようですが、日本においては画像やブログやTwitter、2ch等からの<br>
+テキストの切り抜きを共有するソーシャルウェブクリッピングサービスの要素が強いように見受けられます。<br>
+それ故に他のSNSやパイプラインサービスと異なり、比較的ユーザー間のやり取りやしがらみが少なく、<br>
+純粋に流れてくる画像やテキストを楽しむのに適していると言えます。<br>
+<br>
+</span></font>
+<hr>
+<h2>Consumer Key とSecret Key</h2>
+</div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">Tumblr APIを利用するには、アプリケーションを登録することによって取得出来るコンシューマーキーと<br>
+シークレットキーが必要です。アプリケーション登録するためにはユーザー登録する必要があります。<br>
+<br>
+ユーザー登録とアプリケーション登録については<a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/register/tumblr">Tumblr：ユーザー登録</a>と<a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/register/tumblrappregister">Tumblr：アプリケーション登録</a>を<br>
+参照して下さい。</span></div>
+<div><br>
+</div>
+<div>
+<hr>
+<div><img src="/site/sites/system/app/images/cleardot.gif" style="display:block;text-align:left;margin-right:auto"></div>
+</div>
+<div>
+<h2>jumblrの入手方法</h2>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">jumblrはGitHubのリポジトリでソースコードとパッケージ済のライブラリが提供されています。</span></div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px"><br>
+</span></div>
+<div>
+<ul><li><span style="color:rgb(159,197,232);font-size:small;line-height:22px">ソースコードをインポートしてそれをビルドする場合は</span><a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse" style="font-size:small;line-height:22px">eclipse関連</a><font color="#9fc5e8" size="2">の</font><a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/import-from-github" style="color:rgb(159,197,232);font-size:small;line-height:22px">03　GitHubからのインポート</a><font color="#9fc5e8" size="2">、<br>
+</font><a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/convert-to-maven-project" style="color:rgb(159,197,232);font-size:small;line-height:22px">04　Maven プロジェクトへ変換</a><font color="#9fc5e8" size="2">、</font><a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/maven-build" style="color:rgb(159,197,232);font-size:small;line-height:22px">05　Maven プロジェクトのビルド</a><font size="2" style="color:rgb(159,197,232)">の順に参照してください。</font><br>
+<font color="#eeeeee" size="1"><b><br>
+(※)尚、このサイトではkepler(4.3)以降の「<a href="http://mergedoc.sourceforge.jp/" target="_blank">Pleiades All in One</a>」(日本語化済み+幾つかのプラグインが<br>
+追加されているeclipse)を使用していることを前提としています。<br>
+(つまりegitが標準で含まれており、m2eプラグインが追加されている状態)&nbsp;</b></font><br>
+<br>
+</li>
+<li><span style="line-height:22px;color:rgb(159,197,232);font-size:small">パッケージ済ライブラリを使用する場合は</span><a href="http://tumblr.github.io/jumblr/" style="line-height:22px;font-size:small">http://tumblr.github.io/jumblr/</a><span style="line-height:22px;color:rgb(159,197,232);font-size:small">からダウンロード出来ます。<br>
+</span><span style="font-size:small;line-height:22px"><font color="#9fc5e8">依存ライブラリを含んだ「with dependencies」をダウンロードした方がいいでしょう。<br>
+</font></span><a href="https://sites.google.com/site/makeamountainoutofamolehill/home/how-to-use/java-library/jumblr/jumblrdl01.png?attredirects=0" imageanchor="1" style="line-height:22px;font-size:small"><img border="0" src="https://sites.google.com/site/makeamountainoutofamolehill/home/how-to-use/java-library/jumblr/jumblrdl01.png"></a></li></ul>
+</div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px"><br>
+ビルドまたはダウンロードしたライブラリをUseJumblrまたは自分のプロジェクトへ追加するに</span><span style="color:rgb(159,197,232);font-size:small;line-height:22px">は</span></div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px"><a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/eclipse/add-jar-to-build-path">06　ビルドパスへのライブラリの追加</a>を参照してください。<br>
+</span></div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px"><br>
+</span></div>
+<div></div>
+<div>
+<hr>
+</div>
+
+<h2>UseJumblrについて</h2>
 <div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">UseJumblrはJumblrの動作を確認するために作成したプログラムです。</span></div>
 <div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">このカテゴリで使用されるサンプルコードはこのプログラム内でのみ動きます。</span></div>
 <div><font color="#9fc5e8" size="2">これを使用するには以下の手順が必要です。<br>
