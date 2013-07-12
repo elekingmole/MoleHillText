@@ -1,5 +1,60 @@
  en
- content or url
+<body>
+<h2>Jumblr and Tumblr</h2>
+<span style="line-height:normal"><font color="#9fc5e8" face="arial, sans-serif" size="2">
+<div>This page explains how to use jumblr.</div>
+</font></span>
+<div><font color="#9fc5e8" face="arial, sans-serif" size="2"><span style="line-height:normal">Jumblr is an official java library for Tumblr V2 API.</span></font></div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><font color="#9fc5e8" size="2"><span style="line-height:normal"><font face="arial, sans-serif"><a href="http://www.tumblr.com" target="_blank">Tumblr</a> is </font></span></font><font color="#9fc5e8" face="arial, sans-serif" size="2"><span style="line-height:normal">a micro-blogging service that Tumblr, Inc provides.</span></font></div>
+<div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>
+<hr>
+<h2>Consumer Key and Secret Key</h2>
+</div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">
+The consumer key and the secret key that can be acquired by registering <br>
+the application are necessary to use Tumblr API.<br>
+<br>
+</span></div>
+<div><br>
+</div>
+<div>
+<hr>
+<div>
+<h2>How to get jumblr</h2>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">
+You can get the code on github or download Jar file from the project page.
+</span></div>
+<div><br></div>
+<div><br>
+</div>
+<div></div>
+<div>
+<hr>
+</div>
+
+<h2>About UseJumblr</h2>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">UseJumblr is a program made in order to check the behavior of Jumblr.</span></div>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">Sample code used in this category will work only within this program.</span></div>
+<div><font color="#9fc5e8" size="2">To use this,you need to follow steps below.<br>
+<ol><li>Import from <a href="https://github.com/elekingmole/UseJumblr" style="line-height:1.25">https://github.com/elekingmole/UseJumblr</a><span style="line-height:1.25"></span><br></li>
+<li style="line-height:22px"><span style="line-height:1.25">Specify the consumerKey and consumerSecret in Functions.java.<br>
+<br>
+</span></li>
+<li style="line-height:22px"><span style="line-height:1.25">Add jumblr to the build path of your project.<br>
+</li>
+</ol>
+<hr>
+<div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">It explains the class and the method of jumblr on the following pages. </span></div>
+</body>
  ----[split]----
  ja
 <body>
@@ -35,6 +90,7 @@
 </div>
 <div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">Tumblr APIを利用するには、アプリケーションを登録することによって取得出来るコンシューマーキーと<br>
 シークレットキーが必要です。アプリケーション登録するためにはユーザー登録する必要があります。<br>
+(一部これらのキーを必要とせずに使用出来るAPIもあります)
 <br>
 ユーザー登録とアプリケーション登録については<a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/register/tumblr">Tumblr：ユーザー登録</a>と<a href="https://sites.google.com/site/makeamountainoutofamolehill/home/tips/register/tumblrappregister">Tumblr：アプリケーション登録</a>を<br>
 参照して下さい。</span></div>
@@ -88,5 +144,4 @@
 </ol>
 <hr>
 <div><span style="color:rgb(159,197,232);font-size:small;line-height:22px">以下のページでjumblrのクラスやメソッドについて説明します。</span></div>
-
 </body>
