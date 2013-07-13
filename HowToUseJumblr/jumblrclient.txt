@@ -1,22 +1,87 @@
  en
+<h2><font color="#9fc5e8" size="4">Summary</font></h2>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4"><br>
 This class is the basic class which is used to make a request to Tumblr API.
+</font></div>
+<div><font size="4"><font color="#9fc5e8">
 This class has two variables, which are RequestBuilder to perform the actual request and Stirng that store the apikey.
+</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+</font></div>
+<div><font color="#9fc5e8" size="4">Constructor</font></div>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4"><br>
+This class has three constructors.<br>
+<br>
+</font></div>
+<div><font color="#9fc5e8" size="4">The default constructor generates RequestBuilder newly and joins this JumblrClient together. This is called from other constructors inside.</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+The second constructor takes consumerKey and consumerSecret. <br>
+These two arguments are set in RequestBuilder. consumerKey is set as apikey.<br>
+<br>
+</font></div>
 
-This class has three constructors.
-The default constructor generates RequestBuilder newly and joins this JumblrClient together. This is called from other constructors inside.
-The second constructor takes consumerKey and consumerSecret. These two arguments are set in RequestBuilder. consumerKey is set as apikey.
-The third constructor takes consumerKey, consumerSecret, token and tokenSecret. The consumerKey and consumerSecret are used for calling the second constructer, and token and tokenSecret are set by setToken method.
-
-It explains the method of jumblrClient on the following pages.
-
+<div><font color="#9fc5e8" size="4">The third constructor takes consumerKey, consumerSecret, token and tokenSecret.</font></div>
+<div><font color="#9fc5e8" size="4">The consumerKey and consumerSecret are used for calling the second constructer,<br>
+  and token and tokenSecret are set by setToken method.</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+</font></div>
+<div><font color="#9fc5e8" size="4">Method</font></div>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4"><br>
+It explains the method of jumblrClient on the following pages.</font></div>
+</div>
+<div><br>
+</div>
  ----[split]----
  ja
-このクラスはTumblr APIへのリクエストを作成する為に使用される基本的なクラスです。
-このクラスは実際のリクエスト処理を行うRequestBuilderクラスとapikeyを格納する為のStringクラスをメンバ変数として持ちます。
-
-コンストラクタは3つあります。
-引数なしのコンストラクタはRequestBuilderを新規に生成し、このJumblrClientを結びつけます。これは他のコンストラクタから内部で呼ばれています。
-2番目のコンストラクタはconsumerKeyとconsumerSecretを取ります。この2つの引数はRequestBuilderにセットされます。consumerKeyはapikeyとしてセットされます。
-3番目のコンストラクタはconsumerKeyとconsumerSecretとtokenとtokenSecretを取ります。consumerKeyとconsumerSecretは二番目のコンストラクタ呼び出しに用いられ、tokenとtokenSecretはsetTokenメソッドによってセットされます。
-
-以下のページでjumblrClientのメソッドについて説明します。
+<h2><font color="#9fc5e8" size="4">概要</font></h2>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4"><br>
+このクラスはTumblr APIへのリクエストを作成する為に使用される基本的なクラスです。</font></div>
+<div><font size="4"><font color="#9fc5e8">このクラスは</font><span style="color: rgb(159, 197, 232); line-height: 1.25;">メンバ変数として</span><span style="color: rgb(159, 197, 232); line-height: 1.25;">実際のリクエスト処理を行うRequestBuilderクラスとapikeyを<br>
+格納する為のStringクラスを持ちます。</span></font></div>
+<div><font color="#9fc5e8" size="4"><br>
+</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+</font></div>
+<div><font color="#9fc5e8" size="4">コンストラクタ</font></div>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4"><br>
+コンストラクタは3つあります。<br>
+<br>
+</font></div>
+<div><font color="#9fc5e8" size="4">引数なしのコンストラクタはRequestBuilderを新規に生成し、このJumblrClientを結びつけます。<br>
+これは他のコンストラクタから内部で呼ばれています。</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+2番目のコンストラクタはconsumerKeyとconsumerSecretを取ります。この2つの引数は<br>
+RequestBuilderにセットされます。consumerKeyはapikeyとしてセットされます。<br>
+<br>
+</font></div>
+<div><font color="#9fc5e8" size="4">3番目のコンストラクタはconsumerKeyとconsumerSecretとtokenとtokenSecretを取ります。</font></div>
+<div><font color="#9fc5e8" size="4">consumerKeyとconsumerSecretは二番目のコンストラクタ呼び出しに用いられ、tokenとt<br>
+okenSecretはsetTokenメソッドによってセットされます。</font></div>
+<div><font color="#9fc5e8" size="4"><br>
+</font></div>
+<div><font color="#9fc5e8" size="4">メソッド</font></div>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4"><br>
+以下のページでjumblrClientクラスのメソッドについて説明します。</font></div>
+</div>
+<div><br>
+</div>
