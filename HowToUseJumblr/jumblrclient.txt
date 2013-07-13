@@ -1,0 +1,22 @@
+ en
+This class is the basic class which is used to make a request to Tumblr API.
+This class has two variables, which are RequestBuilder to perform the actual request and Stirng that store the apikey.
+
+This class has three constructors.
+The default constructor generates RequestBuilder newly and joins this JumblrClient together. This is called from other constructors inside.
+The second constructor takes consumerKey and consumerSecret. These two arguments are set in RequestBuilder. consumerKey is set as apikey.
+The third constructor takes consumerKey, consumerSecret, token and tokenSecret. The consumerKey and consumerSecret are used for calling the second constructer, and token and tokenSecret are set by setToken method.
+
+It explains the method of jumblrClient on the following pages.
+
+ ----[split]----
+ ja
+このクラスはTumblr APIへのリクエストを作成する為に使用される基本的なクラスです。
+このクラスは実際のリクエスト処理を行うRequestBuilderクラスとapikeyを格納する為のStringクラスをメンバ変数として持ちます。
+
+コンストラクタは3つあります。
+引数なしのコンストラクタはRequestBuilderを新規に生成し、このJumblrClientを結びつけます。これは他のコンストラクタから内部で呼ばれています。
+2番目のコンストラクタはconsumerKeyとconsumerSecretを取ります。この2つの引数はRequestBuilderにセットされます。consumerKeyはapikeyとしてセットされます。
+3番目のコンストラクタはconsumerKeyとconsumerSecretとtokenとtokenSecretを取ります。consumerKeyとconsumerSecretは二番目のコンストラクタ呼び出しに用いられ、tokenとtokenSecretはsetTokenメソッドによってセットされます。
+
+以下のページでjumblrClientのメソッドについて説明します。
