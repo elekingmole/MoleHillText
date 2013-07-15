@@ -1,0 +1,67 @@
+ en
+<h2><font size="4" color="#eeeeee">ユーザー認証</font></h2>
+<hr id="区切り線">
+<font size="4"><font color="#9fc5e8">Tumblrに限りませんが、登録したユーザーのみが利用できるWebサービスは</font><br>
+<font color="#9fc5e8">基本的に利用時にユーザー認証を行います。</font><br>
+<br>
+<font color="#9fc5e8">ユーザー認証(user authentication)とはユーザー名とパスワード等を提示させることによって、</font><br>
+<font color="#9fc5e8">そのユーザー本人であることをシステム側から確認することです。認証を受けたユーザーは</font><br>
+<font color="#9fc5e8">許可されているシステムのサービスへアクセスできます。</font><br>
+<br>
+<br>
+<h2><font color="#eeeeee">認証レベル</font></h2><br>
+</font>
+<hr id="区切り線">
+<font size="4" color="#9fc5e8">Tumblrでは3つの異なる認証レベルを利用できます。(None、API key、OAuth)</font>
+<div><font size="4"><font color="#9fc5e8">全てのAPIを使用するには、OAuth認証を受ける必要があります。</font><br>
+<br>
+<font color="#eeeeee"><br>
+</font></font></div>
+<div><span style="color: rgb(238, 238, 238); font-size: large; line-height: 17.600000381469727px;">OAuth</span><font size="4"><font color="#eeeeee">認証（</font></font><span style="color: rgb(238, 238, 238); font-size: large; line-height: 17.600000381469727px;">オーオース</span><span style="color: rgb(238, 238, 238); font-size: large; line-height: 1.25;">認証）</span></div>
+<div>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4">Tumblrのユーザー認証には</font><span style="color: rgb(159, 197, 232); font-size: large; line-height: 17.600000381469727px;">OAuth</span><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">認証・xAuth認証の2つの方法が用意されています。</span></div>
+<div><font color="#9fc5e8" size="4">ここではOAuth認証について説明します。<br>
+<br>
+オーオース認証は初回のみユーザーネームとパスワードを送信し、ユーザーの認可等の</font></div>
+<div><font color="#9fc5e8" size="4">幾つかの手順を経た後にAccessTokenを取得し、次回以降はそのAccessTokenを利</font><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">用して</span></div>
+<div><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">認証を受けます。</span></div>
+<div><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;"><br>
+</span></div>
+<div><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">以下のページで2つのメソッドを使用してAccessTokenを取得する手順を説明します。</span></div>
+ ----[split]----
+ ja
+<h2><font size="4" color="#eeeeee">ユーザー認証</font></h2>
+<hr id="区切り線">
+<font size="4"><font color="#9fc5e8">Tumblrに限りませんが、登録したユーザーのみが利用できるWebサービスは</font><br>
+<font color="#9fc5e8">基本的に利用時にユーザー認証を行います。</font><br>
+<br>
+<font color="#9fc5e8">ユーザー認証(user authentication)とはユーザー名とパスワード等を提示させることによって、</font><br>
+<font color="#9fc5e8">そのユーザー本人であることをシステム側から確認することです。認証を受けたユーザーは</font><br>
+<font color="#9fc5e8">許可されているシステムのサービスへアクセスできます。</font><br>
+<br>
+<br>
+<h2><font color="#eeeeee">認証レベル</font></h2><br>
+</font>
+<hr id="区切り線">
+<font size="4" color="#9fc5e8">Tumblrでは3つの異なる認証レベルを利用できます。(None、API key、OAuth)</font>
+<div><font size="4"><font color="#9fc5e8">全てのAPIを使用するには、OAuth認証を受ける必要があります。</font><br>
+<br>
+<font color="#eeeeee"><br>
+</font></font></div>
+<div><span style="color: rgb(238, 238, 238); font-size: large; line-height: 17.600000381469727px;">OAuth</span><font size="4"><font color="#eeeeee">認証（</font></font><span style="color: rgb(238, 238, 238); font-size: large; line-height: 17.600000381469727px;">オーオース</span><span style="color: rgb(238, 238, 238); font-size: large; line-height: 1.25;">認証）</span></div>
+<div>
+<div>
+<hr id="区切り線">
+</div>
+<div><font color="#9fc5e8" size="4">Tumblrのユーザー認証には</font><span style="color: rgb(159, 197, 232); font-size: large; line-height: 17.600000381469727px;">OAuth</span><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">認証・xAuth認証の2つの方法が用意されています。</span></div>
+<div><font color="#9fc5e8" size="4">ここではOAuth認証について説明します。<br>
+<br>
+オーオース認証は初回のみユーザーネームとパスワードを送信し、ユーザーの認可等の</font></div>
+<div><font color="#9fc5e8" size="4">幾つかの手順を経た後にAccessTokenを取得し、次回以降はそのAccessTokenを利</font><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">用して</span></div>
+<div><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">認証を受けます。</span></div>
+<div><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;"><br>
+</span></div>
+<div><span style="color: rgb(159, 197, 232); font-size: large; line-height: 1.25;">以下のページで2つのメソッドを使用してAccessTokenを取得する手順を説明します。</span></div>
