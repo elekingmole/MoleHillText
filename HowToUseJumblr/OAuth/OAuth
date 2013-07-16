@@ -2,7 +2,7 @@
 
  ----[split]----
  ja
-<h2><font size="4" color="#eeeeee">ユーザー認証</font></h2>
+<body><h2><font size="4" color="#eeeeee">ユーザー認証</font></h2>
 <hr id="区切り線">
 Tumblrに限りませんが、登録したユーザーのみが利用できるWebサービスは<br>
 基本的に利用時にユーザー認証を行います。<br>
@@ -20,7 +20,7 @@ Tumblrでは3つの異なる認証レベルを利用できます。(None、API k
 <br>
 <br>
 </div>
-<h2><font size="4"  color="#eeeeee">OAuth認証（オーオース認証）</font>
+<h2><font size="4"  color="#eeeeee">OAuth認証（オーオース認証）</font></h2>
 <div>
 <div>
 <hr id="区切り線">
@@ -33,3 +33,4 @@ Tumblrのユーザー認証にはOAuth認証・xAuth認証の2つの方法が用
 認証を受けます。<br>
 <br>
 以下のページで2つのメソッドを使用してAccessTokenを取得する手順を説明します。<br>
+</body>
