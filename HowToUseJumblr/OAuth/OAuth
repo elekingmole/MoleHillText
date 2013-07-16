@@ -8,12 +8,10 @@ User authentication is that system side confirm principal <br>
 by letting user show a user name and a password.<br>
 The authenticated user can access the permitted service within the system.<br>
 <br>
-<br>
 <h2><font size="4" color="#eeeeee">Levels of authentication</font></h2>
 <hr id="区切り線">
 Three different authentication level is available in Tumblr. (None/API key/OAuth)<br>
 It is necessary to receive the OAuth authentication to use all API.<br>
-<br>
 <br>
 </div>
 <h2><font size="4"  color="#eeeeee">OAuth authentication</font></h2>
@@ -32,7 +30,6 @@ Flow of the OAuth authentication in the first time:
 <li>Your program can get AccessToken.</li>
 <li>After this, your program use a function of the web service using AccessToken.</li>
 </ol>
-<br>
 The following pages explain a procedure to acquire AccessToken using two methods.<br>
 </body>
  ----[split]----
@@ -46,12 +43,10 @@ Tumblrに限りませんが、登録したユーザーのみが利用できるWe
 そのユーザー本人であることをシステム側から確認することです。<br>
 認証を受けたユーザーは許可されているシステムのサービスへアクセスできます。<br>
 <br>
-<br>
 <h2><font size="4" color="#eeeeee">認証レベル</font></h2>
 <hr id="区切り線">
 Tumblrでは3つの異なる認証レベルを利用できます。(None、API key、OAuth)<br>
 全てのAPIを使用するには、OAuth認証を受ける必要があります。<br>
-<br>
 <br>
 </div>
 <h2><font size="4"  color="#eeeeee">OAuth認証（オーオース認証）</font></h2>
@@ -69,6 +64,5 @@ Tumblrのユーザー認証にはOAuth認証・xAuth認証の2つの方法が用
 <li>AccessTokenが取得出来ます。</li>
 <li>プログラムは以降、AccessTokenを使用してWebサービスの機能を利用します。</li>
 </ol>
-<br>
 以下のページで2つのメソッドを使用してAccessTokenを取得する手順を説明します。<br>
 </body>
