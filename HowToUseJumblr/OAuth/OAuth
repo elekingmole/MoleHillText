@@ -1,5 +1,40 @@
  en
-
+<body><h2><font size="4" color="#eeeeee">User authentication</font></h2>
+<hr id="区切り線">
+Although not limited to Tumblr, webservices that only registered user can use <br>
+requires user authentication.<br>
+<br>
+User authentication is that system side confirm principal <br>
+by letting user show a user name and a password.<br>
+The authenticated user can access the permitted service within the system.<br>
+<br>
+<br>
+<h2><font size="4" color="#eeeeee">Levels of authentication</font></h2>
+<hr id="区切り線">
+Three different authentication level is available in Tumblr. (None/API key/OAuth)<br>
+It is necessary to receive the OAuth authentication to use all API.<br>
+<br>
+<br>
+</div>
+<h2><font size="4"  color="#eeeeee">OAuth authentication</font></h2>
+<div>
+<hr id="区切り線">
+</div>
+Two methods of the OAuth authentication and the xAuth authentication are<br>
+ prepared in the user authentication of Tumblr. <br>
+The OAuth authentication is treated here. <br>
+<br>
+Flow of the OAuth authentication in the first time:
+<ol>
+<li>Your program leads user to Authorization URL.</li>
+<li>(Unless user has logged in the web service, the web service leads user to login screen.)</li>
+<li>Authenticated user authorizes your program at the Authorization URL.</li>
+<li>Your program can get AccessToken.</li>
+<li>After this, your program use a function of the web service using AccessToken.</li>
+</ol>
+<br>
+The following pages explain a procedure to acquire AccessToken using two methods.<br>
+</body>
  ----[split]----
  ja
 <body><h2><font size="4" color="#eeeeee">ユーザー認証</font></h2>
@@ -8,12 +43,11 @@ Tumblrに限りませんが、登録したユーザーのみが利用できるWe
 基本的に利用時にユーザー認証を行います。<br>
 <br>
 ユーザー認証とはユーザー名とパスワード等を提示させることによって、<br>
-そのユーザー本人であることをシステム側から確認することです。認証を受けたユーザーは<br>
-許可されているシステムのサービスへアクセスできます。<br>
+そのユーザー本人であることをシステム側から確認することです。<br>
+認証を受けたユーザーは許可されているシステムのサービスへアクセスできます。<br>
 <br>
 <br>
-<h2><font size="4" color="#eeeeee">認証レベル</font></h2><br>
-</font>
+<h2><font size="4" color="#eeeeee">認証レベル</font></h2>
 <hr id="区切り線">
 Tumblrでは3つの異なる認証レベルを利用できます。(None、API key、OAuth)<br>
 全てのAPIを使用するには、OAuth認証を受ける必要があります。<br>
@@ -22,15 +56,19 @@ Tumblrでは3つの異なる認証レベルを利用できます。(None、API k
 </div>
 <h2><font size="4"  color="#eeeeee">OAuth認証（オーオース認証）</font></h2>
 <div>
-<div>
 <hr id="区切り線">
 </div>
 Tumblrのユーザー認証にはOAuth認証・xAuth認証の2つの方法が用意されています。<br>
-ここではOAuth認証について説明します。<br>
+ここではOAuth認証を扱います。<br>
 <br>
-オーオース認証は初回のみユーザーネームとパスワードを送信し、ユーザーの認可等の<br>
-幾つかの手順を経た後にAccessTokenを取得し、次回以降はそのAccessTokenを利用して<br>
-認証を受けます。<br>
+初回時のオーオース認証の流れ
+<ol>
+<li>プログラムがユーザーを認可URLへと導きます。</li>
+<li>(ユーザーがそのWebサービスへログイン済みでなければ、Webサービス側がログインを要求します。)</li>
+<li>ログイン状態のユーザーは認可URLでプログラムを認可します。</li>
+<li>AccessTokenが取得出来ます。</li>
+<li>プログラムは以降、AccessTokenを使用してWebサービスの機能を利用します。</li>
+</ol>
 <br>
 以下のページで2つのメソッドを使用してAccessTokenを取得する手順を説明します。<br>
 </body>
