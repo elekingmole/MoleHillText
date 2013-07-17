@@ -30,7 +30,9 @@ Flow of the OAuth authentication in the first time:
 <li>Your program can get AccessToken.</li>
 <li>After this, your program use a function of the web service using AccessToken.</li>
 </ol>
-The following pages explain a procedure to acquire AccessToken using two methods.<br>
+The following pages explain a procedure to acquire AccessToken using scribe-java.<br>
+Scribe-java is OAuth library.If you use jumblr-xxxxxxxxxxxxxx-jar-with-dependencies.jar ,<br>
+because it is a dependence library of jumblr, it is not necessary to add it to a build path.<br>
 </body>
  ----[split]----
  ja
@@ -64,5 +66,8 @@ Tumblrのユーザー認証にはOAuth認証・xAuth認証の2つの方法が用
 <li>AccessTokenが取得出来ます。</li>
 <li>プログラムは以降、AccessTokenを使用してWebサービスの機能を利用します。</li>
 </ol>
-以下のページで2つのメソッドを使用してAccessTokenを取得する手順を説明します。<br>
+以下のページでscribe-javaを使用してAccessTokenを取得する手順を説明します。<br>
+scribe-javaはOAuthライブラリです。jumblrの依存ライブラリなので、<br>
+jumblr-xxxxxxxxxxxxxx-jar-with-dependencies.jarを使用してる場合、<br>
+ビルドパスへ追加する必要はありません。
 </body>
