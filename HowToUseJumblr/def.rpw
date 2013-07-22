@@ -1,0 +1,5 @@
+ en
+ %--%%--%test=defaulttest%--%test2=DEFAULTTEST
+ ----[split]----
+ ja
+ %--%%--%test=でふぉるとてすと%--%test2=デフォルトテスト

@@ -1,0 +1,7 @@
+ en
+This is %-test-%.
+That is %-test2-%.
+ ----[split]----
+ ja
+これは%-test-%です。
+あれは%-test2-%です。

@@ -1,0 +1,5 @@
+ en
+ %--%%--%test=withintestfolder%--%test2=WITHINTESTFOLDER
+ ----[split]----
+ ja
+ %--%%--%test=てすとふぉるだ内%--%test2=テストフォルダ内
