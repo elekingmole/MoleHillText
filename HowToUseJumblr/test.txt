@@ -1,11 +1,11 @@
  en
 This is %-test-%.
 That is %-test2-%.
-%#P01_en#%
-%#P02_en#%
+%#Ptest01_en#%
+%#Ptest02_en#%
  ----[split]----
  ja
 これは%-test-%です。
 あれは%-test2-%です。
-%#P01#%
-%#P02#%
+%#Ptest01#%
+%#Ptest02#%
