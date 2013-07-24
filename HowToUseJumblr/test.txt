@@ -1,15 +1,23 @@
  en
 This is %-test-%.
 That is %-test2-%.
-%#Ptest01_en#%
-%#Ptest02_en#%
-%#ptest03_en#%
-%#ptest04_en#%
+{Ptest01_en}
+{Ptest02_en}
+{ptest03_en}
+{ptest04_en}
  ----[split]----
  ja
 これは%-test-%です。
 あれは%-test2-%です。
-%#Ptest01#%
-%#Ptest02#%
-%#ptest03#%
-%#ptest04#%
+
+どらごん
+{Ptest01}
+
+はいかー
+{Ptest02}
+
+がか
+{ptest03}
+
+なすほーん
+{ptest04}
