@@ -2,27 +2,27 @@
 This is %-test-%.
 That is %-test2-%.
 
-{Ptest01_en}
-{Ptest02_en}
-{ptest03_en}
-{ptest04_en}
+{^Ptest01_en^}
+{^Ptest02_en^}
+{^ptest03_en^}
+{^ptest04_en^}
  ----[split]----
  ja
 これは%-test-%です。
 あれは%-test2-%です。
 
-URLは{Lhttp://www.google.co.jp}です。
-ゆーあるえるはURLは{Lhttps://sites.google.com/site/makeamountainoutofamolehill/home/how-to-use/java-library/jumblr/oauth/getrequesttoken|getrequesttoken
-}です。
+URLは^{Lhttp://www.google.co.jp}^です。
+ゆーあるえるはURLは^{Lhttps://sites.google.com/site/makeamountainoutofamolehill/home/how-to-use/java-library/jumblr/oauth/getrequesttoken|getrequesttoken
+}^です。
 
 どらごん
-{Ptest01}
+{^Ptest01^}
 
 はいかー
-{Ptest02}
+{^Ptest02^}
 
 がか
-{ptest03}
+{^ptest03^}
 
 なすほーん
-{ptest04}
+{^ptest04^}
