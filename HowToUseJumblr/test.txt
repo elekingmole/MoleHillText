@@ -11,7 +11,7 @@ That is %-test2-%.
 これは%-test-%です。
 あれは%-test2-%です。
 
-URLは^{Lhttp://www.google.co.jp}^です。
+URLは^{Lhttps://www.google.co.jp}^です。
 ゆーあるえるはURLは^{Lhttps://sites.google.com/site/makeamountainoutofamolehill/home/how-to-use/java-library/jumblr/oauth/getrequesttoken|getrequesttoken}^です。
 
 どらごん
